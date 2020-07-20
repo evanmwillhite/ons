@@ -1,0 +1,15 @@
+{
+  "name": "ons",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "gatsby": "^2.24.7",
+    "gatsby-theme-emulsify": "^2.0.0"
+  },
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "deploy-styleguide": "gatsby build --prefix-paths && gh-pages -d public"
+  }
+}
